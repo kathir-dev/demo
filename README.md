@@ -26,7 +26,7 @@ for the Person details, 2. Security layer which provides the Authentication thro
 
 1. Use the REST API "/auth/authenticate" to get the token by passing in the credentials 
 as a JSON object. After the successful authentication, a token will be provided.
-{ "username": "user", "password":"password"}, {"username":"admin","password":"passwor"}
+{ "username": "user", "password":"password"}, {"username":"admin","password":"password"}
 2. Use the token provided in the further requests. 
 3. Any POST, PUT, DELETE method execution on the REST resource would need admin privileges. 
 4. GET method to list the people would require USER privileges.
