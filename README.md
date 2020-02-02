@@ -31,4 +31,11 @@ as a JSON object. After the successful authentication, a token will be provided.
 3. Any POST, PUT, DELETE method execution on the REST resource would need admin privileges. 
 4. GET method to list the people would require USER privileges.
 
+URL Mapping:
+List the person - "/people"
+Get the person - "/people/{id}"
+Update the person - "/people/{id}" with complete Person object with modified values in JSON format.
+Delete the Person - "/people/{id}" 
+
 Note: I have used the "personId" to identify the "person" which was not there in the test requirement.
+Also, I have chosen to add the security instead of the Unit test cases.
